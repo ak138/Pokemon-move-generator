@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #fde480;
+  }
+  
+  h1 {
+    margin: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#0075BE ;
+    font-size: 3em;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 1.5rem;
+    color: #b48484;
+    margin-bottom: 70px;
+    transition: all .2s ease-in-out;
+  }
+  
+  h3 {
+    text-transform: capitalize;
+  }
+  
+  li:hover {
+    transform: scale(1.5);
+  }
