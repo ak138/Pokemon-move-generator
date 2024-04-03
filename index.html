@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon move generator</title>
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <style>
+        label, input, button {
+            font-family: 'Pokemon Solid', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="background:#6491ad;">
+        <input type="text" id="pokemonName" placeholder="Enter Pokemon name" style="background:#6491ad;">
+        <button onclick="fetchData()" style="background:#6491ad;">Fetch Pokemon/Refresh Pokemon</button><br>
+    </div>
+    <label id="Pokemon">Pokemon's Name</label>
+    <label id="PokemonId">Pokemon's ID</label>
+    <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display:none;">
+    <label id="moves">Possible Moves</label>
+    <script src="index.js"></script>
+</body>
+</html>
